@@ -1,0 +1,14 @@
+input{
+    margin-bottom: 15px;
+    border-radius: 20px;
+    padding: 5px;
+
+}
+
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}

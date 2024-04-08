@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Exercicios</title>
+</head>
+<body>
+    <div id="container">
+<div class="card">
+        <label for="quantidade">1 - Soma</label>
+        <input type="number" placeholder="Digite o primeiro numero" id="quantidade">
+        <button onclick="sominha()">Começar</button>
+    </div>
+<div class="card">
+        <label for="multi">2 - Tabuada</label>
+        <input type="number" placeholder="Digite um numero" id="multi">
+        <button onclick="tabuada()">Gerar Tabuada</button>
+        <div id="resultado">
+    </div>
+</div>
+<div class="card">
+        <label for="decre">3/4 - Decrecente</label>
+        <!--<input type="number" placeholder="Digite um numero" id="decre">-->
+        <button onclick="diminuir()">Começar</button>
+    </div>
+<div class="card">
+        <label for="imPar">5/11 - Par e Impar</label>
+        <input type="number" placeholder="Digite um numero" id="imPar">
+        <button onclick="imparPar()">Começar</button>
+    </div>
+<div class="card">
+        <label for="qua1">6 - Raiz Quadrada</label>
+        <input type="number" placeholder="Digite um numero" id="qua1">
+        <button onclick="bobEsponja()">Começar</button>
+
+    </div>
+<div class="card">
+        <label for="levante">7 - Sobe e Desce</label>
+        <input type="number" placeholder="Digite um numero" id="levante">
+        <button onclick="subiuDeceu()">Começar</button>
+    </div>
+    <div class="card"> 
+        <label for="fato">8 - Fatorial</label>
+        <input type="number" placeholder="Digite um numero" id="fato">
+        <button onclick="fatorial()">Calcular</button>
+    </div>
+    <div class="card"> 
+        <label for="buzzlightyear">9 - Multiplos de 3 ou\e 5</label>
+        <input type="number" placeholder="Digite um numero" id="buzzlightyear">
+        <button onclick="aoInfinito()">Calcular</button>
+        <div id="chamarBuzz">
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
